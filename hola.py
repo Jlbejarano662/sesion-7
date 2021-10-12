@@ -1,7 +1,7 @@
-numero = input ("pasa el número: ")
+numero = int(input ("pasa el número: "))
 cont=0
-for i in range (numero):
-    if numero % 0==0:
+for i in range (1,numero +1):
+    if numero % i==0:
         cont = cont + 1
 if cont ==2:
     print("el numero ", numero, " es  primo ")
